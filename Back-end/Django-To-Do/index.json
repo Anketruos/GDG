@@ -1,0 +1,42 @@
+[
+  {
+    "ID": 1,
+    "title": "pretend to do laundry by using fresh socks from the drawer",
+    "completion": "not completed"
+  },
+  {
+    "ID": 2,
+    "title": "watch cat videos instead of doing my assignment",
+    "completion": "completed"
+  },
+  {
+    "ID": 3,
+    "title": "nap time: round 3",
+    "completion": "completed"
+  },
+  {
+    "ID": 4,
+    "title": "plan to be productive... next week",
+    "completion": "completed"
+  },
+  {
+    "ID": 5,
+    "title": "create a meme about procrastination",
+    "completion": "completed"
+  },
+  {
+    "ID": 6,
+    "title": "start a Netflix series and call it research",
+    "completion": "not completed"
+  },
+  {
+    "ID": 7,
+    "title": "consider getting up... then don't",
+    "completion": "not completed"
+  },
+  {
+    "ID": 8,
+    "title": "rearrange my snack supply for optimal eating",
+    "completion": "completed"
+  }
+]
