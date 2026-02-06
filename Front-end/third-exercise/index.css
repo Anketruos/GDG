@@ -1,0 +1,240 @@
+body
+{
+  background-color: antiquewhite;
+  margin: 0;
+  
+}
+header
+{
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+    
+
+nav ul
+{
+ 
+   list-style: none; 
+    padding: 0px;
+  
+}
+nav ul li 
+{
+    display: inline;
+    margin: 15px;
+}
+nav ul li a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    color:black;
+    text-align: center;
+    position-anchor: top;
+   padding: 0px;
+   font-size: 120px;
+   margin: 0%;
+ 
+}
+#image
+{
+
+    background-image:url(Bobba\ tea.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:  relative;
+    margin-top:0px;
+    height: 780px;
+    width: 100%;
+    padding-top: 45px;
+  box-sizing: border-box;
+   
+}
+nav ul li a:hover
+{
+    color: rgb(201, 146, 79);
+}
+footer {
+   
+    background-color: rgb(101, 58, 4);
+    height: 100px; 
+    color: rgb(0, 0, 0);   
+    text-align: center;
+    padding: 10px;
+    font-size: 20px; 
+    width: 100%;
+    position: relative; 
+    margin-top: 20px;
+  
+}
+p::selection
+{
+    color: white;
+    background-color: rgb(101, 58, 4); 
+}
+p strong::selection
+{
+    color: white;
+    background-color: rgb(101, 58, 4); 
+}
+ol li::selection
+{
+    color: white;
+    background-color: rgb(101, 58, 4); 
+}
+footer a
+{
+text-decoration: none;
+color: black;
+display: inline-block;
+}
+footer a h4:hover
+{
+    color: bisque;
+    font-size: 22px;
+}
+footer a h4:active
+{
+    color: rgb(125, 123, 117);
+}
+footer a h4:visited
+{
+    color: rgba(229, 223, 163, 0.736);
+}
+#head
+{
+    text-align: center;
+    background-color:  rgb(101, 58, 4);
+    height: 45px;
+    
+   
+}
+nav
+{
+    background-color: rgb(101, 58, 4); 
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    z-index: 1000;
+    margin: 0; 
+}
+#pagination
+{
+    text-align: center;
+}
+#pagination a
+{
+   color: black;
+   text-decoration: none;
+   padding: 8px 15px;
+   display: inline-block;
+}
+#pagination a.active
+{
+    background-color: rgb(231, 223, 100);
+    font-weight:bold;
+    border-radius: 5px;
+}
+#pagination a:hover:not(.active)
+{
+    background-color:rgb(190, 192, 157);
+    border-radius: 5px;
+}
+p{
+    margin: 30px;
+    font-size: 18px;
+}
+p strong
+{
+    font-size: 35px;
+}
+
+#boobs
+{
+    border: 10px;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    width:500px;
+    height: 350px;
+}
+ol li
+{
+    font-size: 18px;
+}
+#binbi
+{
+    border: 3px solid black;
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+    padding-left: 10px;
+    margin-left: 750px;
+  
+}
+
+#binbi ol li::marker
+{
+    content:"✔️";
+    color: rgb(101, 58, 4);
+   
+}
+.dropdown button
+{
+color: black;
+font-weight: bold;
+background-color: rgb(202, 230, 169);
+padding: 10px 15px;
+font-size: 20px;
+border-radius: 10px;
+cursor: pointer;
+}
+.dropdown a
+{
+    display: block;
+    color: black;
+    font-family:'Dancing Script', cursive ;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+.dropdown .content
+{
+    display: none;
+    position: absolute;
+    
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.715);
+}
+.dropdown:hover .content
+{
+    display: block;
+    background-color:rgb(209, 182, 131) ;
+}
+.dropdown a:hover
+{
+background-color: rgb(202, 230, 169);
+
+}
+.dropdown
+{
+    display:inline-block;
+}
+.dropdown .content a
+{
+    margin-left:10px;
+}
+#merge
+{
+    display: flex;
+    gap: 40px;
+}
